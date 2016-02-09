@@ -1,0 +1,148 @@
+/*Global Styles*/
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font: Times;
+  background: #B2004D;
+}
+
+h1, h2, h3{
+  margin: 0px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*Header Styles*/
+header{
+  height: 120px;
+  background-color: #darkred;
+}
+
+#logo{
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+
+#logo h1:hover{
+  color: skyblue;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+  content: " | ";
+  padding: 0 10px;
+}
+
+#menu a:hover{
+  color: violet;
+}
+
+#menu-1{
+  position: absolute;
+  top: 35px;
+  float: center;
+}
+
+#menu-1 ul{
+  display: inline-block;
+}
+
+#menu-1 li{
+  display: block;
+  float: center;
+}
+
+#menu-1 li:after{
+  content: " | ";
+  padding: 0 10px;
+}
+
+#menu-1 a:hover{
+  color: purple;
+}
+
+footer{
+  text-align: center;
+  color: orange;
+  text-decoration: none;
+  background-color: blue;
+}
+
+footer ul li{
+  display: inline-block;
+  padding-left: 5px;
+}
+
+
+/*banner styles*/
+
+#banner-home{
+  height: 200px;
+  background-color: pink;
+  background-size: cover;
+  background: url;
+  color: white;
+}
+
+#banner-home img{
+  height: 200px;
+  float: top;
+}
+
+#banner-home h2{
+  text-align: center;
+  padding: 25px 0;
+}
+
+.div-1 {
+    width: 390px;
+    height: 100%;
+    padding: 3px;
+    border: 3px solid darkgreen;
+    margin: 5px;
+    float: left;
+}
+
+.section-1{
+  text-align: center;
+  color: white;
+  background: url;
+}
+
+.twitter{
+  background: url(../img/twitter.jpg)center;
+}
+
+.span-1{
+  text-align: center;
+  font-weight: bold;
+  white-space: pre-wrap;
+  font-style: italic;
+
+}
