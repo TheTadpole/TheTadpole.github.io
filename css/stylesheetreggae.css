@@ -83,6 +83,8 @@ footer{
   text-decoration: none;
   background-color: #8C0073;
   height: 150px;
+  margin: 20px;
+  clear: both;
 }
 
 footer ul li{
@@ -90,15 +92,44 @@ footer ul li{
   padding: 5px;
 }
 
+#copyright{
+  padding: 30px 0px;
+  background-color: cyan;
+  display: block;
+  color: green;
+}
+
+.social{
+  text-align: center;
+}
+
+.social a {
+  text-decoration: none;;
+}
+
+.fa{
+  height: 28px;
+  width: 28px;
+  background-color: black;
+  color: green;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 100%;
+  margin: 15px;
+  font-size: 28px !important;
+}
+
+
 
 /*banner styles*/
 
 #banner-home{
-  height: 600px;
+  height: 775px;
   width: 100%;
   background-color: black;
   background-size: cover;
-  background: url(../img/Sky.jpg);
+  background-image: url(../img/Seagull.jpg);
 }
 
 #banner-home img{
@@ -125,15 +156,40 @@ footer ul li{
   background: url(../img/BeachSunset.jpg)center;
 }
 
-.twitter{
-  background: url(../img/twitter.jpg)center;
-}
-
 .span-1{
   text-align: center;
   font-weight: bold;
   white-space: pre-wrap;
   font-style: italic;
+}
+
+#about{
+  background-color: blue;
+  border: 2px dotted orange;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.align-left{
+  margin-right: 24px;
+  margin-top: 10px;
+  float: left;
+  width: 384px;
+}
+
+.selfie{
+  height: 300px;
+  width: 450px;
+}
+
+figure{
+  margin: 0px;
+  padding: 0px;
+}
+
+#about h1{
+  text-align: center;
+  font-size: 3em;
 }
 
 /* Dropdown Button */
