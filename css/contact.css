@@ -1,0 +1,135 @@
+/*Global Styles*/
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font: Times;
+  background: #663300;
+}
+
+h1, h2, h3{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #9aefc3;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*Header Styles*/
+header{
+  height: 105px;
+}
+
+#logo{
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+
+#logo h1:hover{
+  color: skyblue;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+  content: " | ";
+  padding: 0 10px;
+}
+
+#menu a:hover{
+  color: violet;
+}
+
+#menu-1{
+  position: absolute;
+  top: 35px;
+  float: center;
+}
+
+#menu-1 ul{
+  display: inline-block;
+}
+
+#menu-1 li{
+  display: block;
+  float: center;
+}
+
+#menu-1 li:after{
+  content: " | ";
+  padding: 0 10px;
+}
+
+
+/*banner styles*/
+
+#banner-home{
+  height: 600px;
+  background-image: url(../img/Sun.jpg);
+  background-size: cover;
+}
+
+#banner-home h2{
+  text-align: center;
+  padding: 20px;
+}
+
+#contact h3{
+  font-size: 3em;
+}
+
+#contact ul{
+  padding-left: 10px;
+}
+
+#contact li{
+  padding: 2px;
+}
+
+.map{
+  float:left;
+  margin: 20px 20px;
+}
+
+.info{
+  float: left;
+  margin-top: 20px;
+}
+
+footer{
+  text-align: center;
+  color: #9aefc3;
+  text-decoration: none;
+  background-color: #663300;
+}
+
+footer ul li{
+  display: inline-block;
+  padding-left: 5px;
+}
+
+h2{
+  text-align: center;
+  color: #9aefc3;
+}

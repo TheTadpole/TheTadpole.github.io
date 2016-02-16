@@ -24,8 +24,7 @@ ul{
 
 /*Header Styles*/
 header{
-  height: 120px;
-  background-color: #darkred;
+  height: 105px;
 }
 
 #logo{
@@ -87,37 +86,57 @@ header{
   color: purple;
 }
 
-footer{
-  text-align: center;
-  color: orange;
-  text-decoration: none;
-  background-color: blue;
-}
-
-footer ul li{
-  display: inline-block;
-  padding-left: 5px;
-}
-
-
 /*banner styles*/
 
 #banner-home{
-  height: 200px;
-  background-color: pink;
+  height: 500px;
+  background-image: url(../img/Pier.jpg);
   background-size: cover;
-  background: url;
-  color: white;
-}
-
-#banner-home img{
-  height: 200px;
-  float: top;
+  color: black;
 }
 
 #banner-home h2{
   text-align: center;
   padding: 25px 0;
+}
+
+.arcticle-1{
+  padding:20px;
+  float: left;
+}
+
+#video{
+  width: 98%;
+  position:relative;
+  padding-bottom: 56%;
+  padding-top: 30px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.video-container{
+  width: 98%;
+  margin: 0px auto;
+}
+
+#video iframe{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  text-align: center;
+  color: gold;
+  text-decoration: none;
+  background-color: #B2004D;
+}
+
+footer ul li{
+  display: block;
+  padding-left: 5px;
 }
 
 .div-1 {
@@ -127,22 +146,4 @@ footer ul li{
     border: 3px solid darkgreen;
     margin: 5px;
     float: left;
-}
-
-.section-1{
-  text-align: center;
-  color: white;
-  background: url;
-}
-
-.twitter{
-  background: url(../img/twitter.jpg)center;
-}
-
-.span-1{
-  text-align: center;
-  font-weight: bold;
-  white-space: pre-wrap;
-  font-style: italic;
-
 }
