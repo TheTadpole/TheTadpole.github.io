@@ -4,17 +4,19 @@ body{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: times;
 }
 
 h1, h2, h3{
   margin: 0px;
   text-align: center;
+  font: times;
 }
 
 a{
   text-decoration: none;
   color: #08C737;
+  font-size: 1.5em;
 }
 
 ul{
@@ -28,7 +30,7 @@ ul{
 
 /*Header Styles*/
 header{
-  height: 120px;
+  height: 105px;
   background-color: black;
 }
 
@@ -59,7 +61,6 @@ header{
 }
 
 #menu-1 li{
-  display: inline-block;
   float: center;
 }
 
@@ -74,8 +75,9 @@ header{
 
 #menu-2{
   position: absolute;
-  top: 70px;
-  right:20px;
+  top: 35px;
+  right: 100px;
+  padding-top: 15px;
 }
 
 #menu-2 ul{
@@ -83,8 +85,8 @@ header{
 }
 
 #menu-2 li{
-  display: inline-block;
-  float: right;
+  display: block;
+  float: left;
 }
 
 #menu-2 li:after{
@@ -225,7 +227,7 @@ footer ul li{
 }
 
 .social a {
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 .fa{

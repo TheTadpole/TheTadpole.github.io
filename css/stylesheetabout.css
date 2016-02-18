@@ -4,7 +4,7 @@ body{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font: Times;
+  font-family: times;
   background: #B2004D;
 }
 
@@ -16,6 +16,7 @@ h1, h2, h3{
 a{
   text-decoration: none;
   color: gold;
+  font-size: 1.5em;
 }
 
 ul{
